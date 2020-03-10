@@ -2,5 +2,8 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-  return [];
+matrix.reduce(function(a,b){
+    a = concat(b);
+  });
+return matrix;
 }
