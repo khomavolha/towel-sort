@@ -2,9 +2,12 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-matrix.reduce(function(a,b){
-    return a.concat(b);
-  });
-
-}
-
+  let arr=[];
+if(matrix == undefined || matrix.length == 0){ return []
+} else {
+  for(let a=0; a<matrix.length; a+2){
+    matrix[a] = matrix[a].reverse();
+  }
+  arr.push(martix.concat());
+  return arr;
+}}
