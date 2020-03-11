@@ -1,5 +1,4 @@
 
-// You should implement your task here.
 
 module.exports = function towelSort (matrix) {
     let arr=[];
@@ -8,8 +7,8 @@ module.exports = function towelSort (matrix) {
             for(let a=1; a<matrix.length; a=a+2){
             matrix[a] = matrix[a].reverse();
             }
-        let con = matrix.concat();
-        arr.push(con);
+arr = matrix.flat(Infinity);
+
         }
     return arr;
 }
